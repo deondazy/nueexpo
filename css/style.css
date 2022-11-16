@@ -18,16 +18,16 @@ Version:	1.0
 		5.1 Speaker Option ( with Orange Background, 3 Column ) / .speakers.orange
 		5.2 Speaker Option ( with Black Background, 2 Column ) / .speakers.black
 		5.3 Speaker Option ( with white Background, 4 Column ) / .speakers.white
-	6. Schedule / .schedule		
+	6. Schedule / .schedule
 		6.1 Schedule ( with White Background ) / .schedule.white-column
 		6.2 Schedule ( with Black Background ) / .schedule.black
-	7. Sponsors / .sponsors 
+	7. Sponsors / .sponsors
 		7.1 Sponsors ( Four items )/ .sponsors.white
 		7.2 Sponsors ( Six items )/ .sponsors.black
 	8. Price Section / .prices
 		8.1 Price Section ( with Black Background, Three Columns ) / .prices.black-section
-		8.2 Price Section ( with White Background, Four Columns ) / .prices.black-section		
-		8.3 Price Section ( with White Background, three Columns ) / .prices.black-section	
+		8.2 Price Section ( with White Background, Four Columns ) / .prices.black-section
+		8.3 Price Section ( with White Background, three Columns ) / .prices.black-section
 	9. Testiominals / .testiominals
 		9.1 Testiominals ( Full Width ) / .testiominals.full-width
 		9.2 Testiominals ( Three Columns ) / .testiominals.three-columns
@@ -137,7 +137,7 @@ section {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  
+
 }
 .input-group .form-control:last-child,
 .input-group-addon:last-child,
@@ -329,7 +329,7 @@ section {
 }
 .header-left {
   display: none;
-  color: black;
+  color: white;
   font-size: 18px;
 }
 .menu.fixed .header-left {
@@ -475,7 +475,7 @@ section {
   height: 2px;
   -webkit-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
-  background-color: #bb4019;
+  background-color: #248D81;
 }
 .drawer-hamburger-icon:before,
 .drawer-hamburger-icon:after {
@@ -513,14 +513,14 @@ section {
 }
 .drawer--left.drawer-open .drawer-hamburger {
   top: 30% !important;
-  background: rgb(242, 84, 33);
+  background: #248D81;
   border: 1px solid #000;
   z-index: 9999;
 }
 .drawer-menu .sub-menu,
 .nav.navbar-nav ul.sub-menu {
   background: rgb(19, 20, 20) none repeat scroll 0 0;
-  border-top: 4px solid rgb(242, 84, 33);
+  border-top: 4px solid #248D81;
   max-width: 180px;
   width: 180px;
   position: absolute;
@@ -720,7 +720,7 @@ section {
 [4. About / #about ]
 */
 #about {
-  
+
   display: table;
   position: relative;
   width: 100%;
@@ -1530,7 +1530,7 @@ h3.ts-title {
   background: #fff;
 }
 .schedule .column {
-  color: rgb(242, 84, 33);
+  color: #248D81;
   display: inline-block;
   font-family: "Montserrat-SemiBold";
   font-size: 24px;
@@ -1541,15 +1541,15 @@ h3.ts-title {
   letter-spacing: 3px;
 }
 .schedule.white-column .nav-tabs > li > a {
-  color: rgb(242, 84, 33);
-  border-color: rgb(242, 84, 33);
+  color: #248D81;
+  border-color: #248D81;
 }
 .schedule.white-column .nav-tabs > li.active a,
 .schedule.white-column .nav-tabs > li.active a,
 .schedule.white-column .nav-tabs > li > a:hover,
 .schedule.white-column .nav-tabs > li > a:active,
 .schedule.white-column .nav-tabs > li > a:focus {
-  background: rgb(242, 84, 33);
+  background: #248D81;
   color: #fff;
 }
 .schedule.white-column .speakers-list .speaker-schedule {
@@ -1567,7 +1567,7 @@ h3.ts-title {
   border-color: #dbdbdb;
 }
 .schedule.white-column .speakers-list .speaker-schedule i {
-  color: rgb(242, 84, 33);
+  color: #248D81;
   margin-right: 10px;
 }
 .schedule.white-column .nav-tabs > li > a {
@@ -1600,7 +1600,7 @@ h3.ts-title {
   font-size: 20px;
 }
 .schedule.white-column .speakers-list:hover h3.speaker-topic {
-  color: rgb(242, 84, 33);
+  color: #248D81;
 }
 .schedule.white-column .speakers-list .speaker {
   float: left;
@@ -1635,7 +1635,7 @@ h3.ts-title {
   margin-bottom: 50px;
 }
 .schedule.black .main-row .left-item span {
-  color: rgb(242, 84, 33);
+  color: #248D81;
   display: inline-block;
   font-family: Montserrat-Bold;
   font-size: 24px;
@@ -1689,7 +1689,7 @@ h3.ts-title {
 }
 .schedule.black .right-item:hover .speaker-schedule,
 .schedule.black .right-item:hover h3.speaker-topic {
-  color: rgb(242, 84, 33);
+  color: #248D81;
 }
 .schedule.black .schedule-item .right-item .speaker {
   float: left;
@@ -1800,7 +1800,7 @@ h3.ts-title {
   background: #fff;
 }
 .sponsors.white .column {
-  color: rgb(242, 84, 33);
+  color: #248D81;
 }
 .sponsors.white .sponsors-logo,
 .sponsors.white .sponsors-logo .logo-item {
@@ -2356,7 +2356,7 @@ h3.ts-title {
   border-radius: 100px;
 }
 .schedule.white-column .speakers-list .speaker span .column {
-  color: rgb(242, 84, 33);
+  color: #248D81;
   display: inline-block;
   font-size: 24px;
   margin-bottom: 50px;
